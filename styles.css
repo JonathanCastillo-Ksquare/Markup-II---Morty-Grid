@@ -1,0 +1,121 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+.blackbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.in {
+    display: flex;
+    padding: 10px 7px 10px 13px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 886px;
+    height: 260px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.card {
+    background-color: #3c3e44;
+    width: 270px;
+    height: 100px;
+    border-radius: 7px;
+    display: flex;
+    overflow: hidden;
+    margin: 0.75rem;
+}
+
+.logo {
+    flex: 2 1 0%;
+    width: 100%;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    object-position: center;
+    object-fit: center;
+}
+
+.info {
+    height: 100px;
+    width: 170px;
+    padding: 0.1em;
+    color: white;
+    display: flex;
+    flex: 3 1 0%;
+    flex-direction: column;
+    margin-left: 0.2rem;
+}
+
+.textSection {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textSection:first-child {
+    justify-content: center;
+}
+
+.textSection:last-child {
+    justify-content: center;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+}
+
+.textColor {
+    color: grey;
+}
+
+.textSection span {
+    font-size: 0.55em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.textSection .dead {
+    height: 0.3rem;
+    width: 0.3rem;
+    background-color: red;
+    margin-right: 0.2rem;
+    border-radius: 50%;
+}
+
+.textSection .alive {
+    height: 0.3rem;
+    width: 0.3rem;
+    background-color: green;
+    margin-right: 0.2rem;
+    border-radius: 50%;
+}
+
+.textSection>h2 {
+    font-size: 1em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.textSection>p {
+    font-size: 0.6em;
+    margin: 0;
+    font-weight: normal;
+}
